@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header,
+footer {
+  background-color: antiquewhite;
+  padding: 20px 0;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.result-container {
+  background-color: lightgreen;
+  border: solid green 2px;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px 0;
+}
+
+.error-container {
+  background-color: lightcoral;
+  border: solid maroon 2px;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px 0;
+}
